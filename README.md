@@ -2,7 +2,7 @@
 # Hi, I’m Meghana 👋  
 
 🎓 **Bioinformatics & Computational Biology (M.S.)** @ University of Delaware  
-🌱 Background in **Botany + Bioinformatics** | 📊 3+ years working with **RNA-Seq, enrichment analysis, and ML**  
+🌱 Background in **MicroBiology - Botany + Bioinformatics** | 📊 3+ years working with **RNA-Seq, enrichment analysis, and ML**  
 💻 I love applying **machine learning** to **genomics, proteomics, and healthcare data**  
 
 ---
