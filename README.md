@@ -9,14 +9,18 @@
 
 ## 🚀 Featured Projects  
 
-- 🧬 [Alz-Detect: Machine Learning on Blood Transcriptomics](https://github.com/Kusuru-Meghana/Alz-Detect---Machine-Learning-on-Blood-Transcriptomics)  
-  *ML pipeline for Alzheimer’s classification from blood gene expression (with SHAP interpretability).*  
+- [Alz-Detect: Machine Learning on Blood Transcriptomics](https://github.com/Kusuru-Meghana/Alz-Detect--Machine-Learning-on-Blood-Transcriptomics)  
+  *ML pipeline for Alzheimer’s classification from blood gene expression (with SHAP interpretability).*
 
-- 💪 [Functional Enrichment Analysis of Skeletal Muscle](https://github.com/Kusuru-Meghana/functional-enrichment)  
-  *GO, KEGG, Reactome, and GSEA applied to exercise-induced skeletal muscle data.*  
+- [Functional Enrichment Analysis of Skeletal Muscle](https://github.com/Kusuru-Meghana/functional-enrichment)  
+  *GO, KEGG, Reactome, and GSEA applied to exercise-induced skeletal muscle data.*
 
-- 🍔 [Childhood Obesity Prediction](https://github.com/Kusuru-Meghana/childhood-obesity-prediction)  
-  *Health data + ML to identify early risk factors for childhood obesity.*  
+- [Childhood Obesity Prediction](https://github.com/Kusuru-Meghana/childhood-obesity-prediction)  
+  *Health data + ML to identify early risk factors for childhood obesity.*
+
+- [Non-Invasive Fibrosis ML Pipeline](https://github.com/Kusuru-Meghana/Non-Invasive-Fibrosis-ML-Pipeline)  
+  *Machine learning pipeline using RNA-Seq data from the Kidney Precision Medicine Project (KPMP) to identify non-invasive transcriptomic biomarkers for kidney fibrosis. Includes feature selection, Random Forest & XGBoost modeling, and SHAP interpretability.*
+
 
 ---
 
