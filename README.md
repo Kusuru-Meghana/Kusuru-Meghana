@@ -3,24 +3,58 @@
 
 🎓 **Bioinformatics & Computational Biology (M.S.)** @ University of Delaware  
 🌱 Background in **MicroBiology + Botany + Bioinformatics** | 📊 3+ years working with **RNA-Seq, enrichment analysis, and ML**  
-💻 I love applying **machine learning** to **genomics, proteomics, and healthcare data**  
+💻 I love applying **machine learning** to **genomics, proteomics**, and **healthcare data**. I build reproducible pipelines across **multi-omics (RNA-seq/ChIP-seq/ATAC-seq) for biomedical prediction and biological interpretation**.
+
+
+---
+## Featured Projects
+
+### 1) MYC Multi-Omics Regulatory Map in LUAD (A549) — ChIP-seq + RNA-seq + ATAC-seq
+Goal: identify **high-confidence direct MYC targets** by requiring agreement across DNA binding, expression change, and chromatin accessibility.
+
+- **3-layer Integration (main story):** https://github.com/Kusuru-Meghana/LUAD_MYC_3Layer_Integration  
+  - Integrates MYC ChIP-seq + siMYC RNA-seq + ATAC-seq to filter out non-functional binding and indirect DE effects.
+  - Enrichment highlights MYC control of growth programs (ribosome/RNA processing/cell cycle).
+
+- **Layer 1 — MYC ChIP-seq:** https://github.com/Kusuru-Meghana/LUAD_MYC_ChIPseq  
+  - Genome-wide MYC binding landscape + peak annotation + functional enrichment.
+
+- **Layer 2 — siMYC RNA-seq:** https://github.com/Kusuru-Meghana/LUAD_MYC_RNAseq  
+  - Differential expression (siMYC vs CTRL) + QC + pathway interpretation.
+
+- **Layer 3 — ATAC-seq:** https://github.com/Kusuru-Meghana/LUAD_MYC_ATACseq  
+  - Chromatin accessibility peak calling/annotation to support functional filtering.
+
+- **ChIP + RNA Integration:** https://github.com/Kusuru-Meghana/LUAD_MYC_ChIPseq_RNAseq_Integration  
+  - Finds MYC-bound genes that also change with knockdown → “direct-ish” MYC targets.
 
 ---
 
-## 🚀 Featured Projects  
+### 2) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
+**Repo:** https://github.com/Kusuru-Meghana/Non-Invasive-Fibrosis-ML-Pipeline  
+- Built an explainable ML pipeline to predict fibrosis severity using **clinical + plasma biomarkers**, benchmarked against pathology ground truth.
+- Compared invasive vs non-invasive feature sets; used **SHAP** to identify top biomarkers; used enrichment (Reactome/KEGG) for biological validation.
 
-- [Alz-Detect: Machine Learning on Blood Transcriptomics](https://github.com/Kusuru-Meghana/Alz-Detect--Machine-Learning-on-Blood-Transcriptomics)  
-  *ML pipeline for Alzheimer’s classification from blood gene expression (with SHAP interpretability).*
+---
 
-- [Functional Enrichment Analysis of Skeletal Muscle](https://github.com/Kusuru-Meghana/functional-enrichment)  
-  *GO, KEGG, Reactome, and GSEA applied to exercise-induced skeletal muscle data.*
+### 3) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
+**Repo:** https://github.com/Kusuru-Meghana/Alz-Detect---Machine-Learning-on-Blood-Transcriptomics  
+- Built an end-to-end pipeline on GEO blood expression data (probe → gene mapping → ML).
+- Baseline vs boosted models + SHAP interpretability; distilled into a compact gene-signature style model.
 
-- [Childhood Obesity Prediction](https://github.com/Kusuru-Meghana/childhood-obesity-prediction)  
-  *Health data + ML to identify early risk factors for childhood obesity.*
+---
 
-- [Non-Invasive Fibrosis ML Pipeline](https://github.com/Kusuru-Meghana/Non-Invasive-Fibrosis-ML-Pipeline)  
-  *Machine learning pipeline using RNA-Seq data from the Kidney Precision Medicine Project (KPMP) to identify non-invasive transcriptomic biomarkers for kidney fibrosis. Includes feature selection, Random Forest & XGBoost modeling, and SHAP interpretability.*
+### 4) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
+**Repo:** https://github.com/Kusuru-Meghana/functional-enrichment  
+- Practical enrichment workflows for gene lists, including preprocessing, visualization, and interpretation.
+- Focused on extracting biological meaning from differential gene signals.
 
+---
+
+### 5) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
+**Repo:** https://github.com/Kusuru-Meghana/childhood-obesity-prediction  
+- Predicts obesity risk (binary) from lifestyle + demographic + family factors.
+- Includes EDA, feature engineering, and model comparison.
 
 ---
 
@@ -51,8 +85,8 @@
 
 ---
 
-## 📫 Let’s Connect  
-
+## 📫 Let’s Connect 
+- If you’re working on projects in **genomics, transcriptomics, or multi-omics integration**, I’d love to connect and collaborate. 
 - 📧 Email: **meghanak@udel.edu**  
 - 💼 LinkedIn: [linkedin.com/in/meghanakusuru](https://www.linkedin.com/in/meghanakusuru)  
 
