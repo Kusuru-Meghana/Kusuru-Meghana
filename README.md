@@ -28,6 +28,7 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 - **ChIP + RNA Integration:** https://github.com/Kusuru-Meghana/LUAD_MYC_ChIPseq_RNAseq_Integration  
   - Finds MYC-bound genes that also change with knockdown → “direct-ish” MYC targets.
 
+
 ---
 
 ### 2) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
