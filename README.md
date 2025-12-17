@@ -69,10 +69,27 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 ---
 
 ## 📚 Publications & Contributions  
+## Publications & Scholarly Contributions
 
-- *Ecological Adaptability of Orchids in India* – JETIR (2024)  
-- *Effect of Bio-Stimulants on Growth and Yield of Cowpea* – IJAER (2023)  
-- *Biocuration of NURR1 Gene in Parkinson’s Disease* – UniProt Community Curation  
+- **Adekanye, D., Kusuru, M., Caplan, J. L., & Yu, Y. (2025).**  
+  *Toward simple, rapid, and deep plant proteome analysis with an in-cell proteomics strategy.*  
+  **bioRxiv (preprint)**  
+  https://www.biorxiv.org/content/10.1101/2025.10.30.685699v1
+
+- **Kusuru, M. (2024).**  
+  *Ecological Adaptability of Orchids in India.*  
+  **Journal of Emerging Technologies and Innovative Research**  
+  https://www.jetir.org/view?paper=JETIR2412312
+
+- **Kusuru, M., et al. (2023).**  
+  *Effect of Bio-stimulants on Growth and Yield of Cowpea (Vigna unguiculata (L.) Walp).*  
+  **International Journal of Agriculture and Environmental Research, 9(4)**  
+  https://ijaer.in/effect-of-bio-stimulants-on-growth-and-yield-of-cowpea-vigna-unguiculata-l-walp/
+
+- **Kusuru, M. (2024).**  
+  *Biocuration of the NURR1 gene (Q06219) related to Parkinson’s Disease.*  
+  **UniProt Community Biocuration Project**  
+  https://community.uniprot.org/bbsub/bbsubinfo.html?accession=Q06219
 
 ---
 
