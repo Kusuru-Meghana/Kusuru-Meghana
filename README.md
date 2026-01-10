@@ -30,29 +30,37 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 
 
 ---
+### 2) Lung Adenocarcinoma Somatic Variant Calling (Tumor-Only WGS) — GATK + VEP
+**Repo:** https://github.com/<your-username>/<your-variant-calling-repo>
 
-### 2) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
+- Built an end-to-end, reproducible tumor-only whole-genome somatic variant calling pipeline for lung adenocarcinoma, following GATK Best Practices from raw FASTQ through annotated VCFs using Bash and Linux workflows.[web:24][web:48]  
+- Performed alignment (BWA-MEM), duplicate marking (Picard), and somatic variant calling (GATK Mutect2), identifying ~523K candidate variants and filtering to ~452K high-confidence somatic calls.[web:24][web:51]  
+- Conducted functional annotation with Ensembl VEP, prioritizing ~4,700 protein-altering and splice-site variants across ~7,800 genes to support biological interpretation of tumorigenic mutations.[web:33][web:38]
+
+---
+
+### 3) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
 **Repo:** https://github.com/Kusuru-Meghana/Non-Invasive-Fibrosis-ML-Pipeline  
 - Built an explainable ML pipeline to predict fibrosis severity using **clinical + plasma biomarkers**, benchmarked against pathology ground truth.
 - Compared invasive vs non-invasive feature sets; used **SHAP** to identify top biomarkers; used enrichment (Reactome/KEGG) for biological validation.
 
 ---
 
-### 3) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
+### 4) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
 **Repo:** https://github.com/Kusuru-Meghana/Alz-Detect---Machine-Learning-on-Blood-Transcriptomics  
 - Built an end-to-end pipeline on GEO blood expression data (probe → gene mapping → ML).
 - Baseline vs boosted models + SHAP interpretability; distilled into a compact gene-signature style model.
 
 ---
 
-### 4) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
+### 5) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
 **Repo:** https://github.com/Kusuru-Meghana/functional-enrichment  
 - Practical enrichment workflows for gene lists, including preprocessing, visualization, and interpretation.
 - Focused on extracting biological meaning from differential gene signals.
 
 ---
 
-### 5) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
+### 6) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
 **Repo:** https://github.com/Kusuru-Meghana/childhood-obesity-prediction  
 - Predicts obesity risk (binary) from lifestyle + demographic + family factors.
 - Includes EDA, feature engineering, and model comparison.
