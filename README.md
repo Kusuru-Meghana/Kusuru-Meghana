@@ -31,7 +31,7 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 
 ---
 ### 2) Lung Adenocarcinoma Somatic Variant Calling (Tumor-Only WGS) — GATK + VEP
-**Repo:** https://github.com/<your-username>/<your-variant-calling-repo>
+**Repo:** https://github.com/Kusuru-Meghana/Lung-Adenocarcinoma-Somatic-Variant-Calling-Tumor-Only-WGS-
 
 - Built an end-to-end, reproducible tumor-only whole-genome somatic variant calling pipeline for lung adenocarcinoma, following GATK Best Practices from raw FASTQ through annotated VCFs using Bash and Linux workflows.[web:24][web:48]  
 - Performed alignment (BWA-MEM), duplicate marking (Picard), and somatic variant calling (GATK Mutect2), identifying ~523K candidate variants and filtering to ~452K high-confidence somatic calls.[web:24][web:51]  
