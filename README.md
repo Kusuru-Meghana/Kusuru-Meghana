@@ -45,22 +45,29 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 - Compared invasive vs non-invasive feature sets; used **SHAP** to identify top biomarkers; used enrichment (Reactome/KEGG) for biological validation.
 
 ---
+### 4) Spatial Transcriptomics Analysis of Human Cerebellum (10x Visium)
+**Repo:** https://github.com/Kusuru-Meghana/human-cerebellum-spatial-transcriptomics
+- Performed end-to-end spatial transcriptomics analysis of human cerebellum tissue using 10x Genomics Visium data, integrating QC, normalization, PCA, and clustering workflows.  
+- Demonstrated that gene expression–based clustering alone recovers spatially coherent tissue domains, validating biological structure without spatial priors.  
+- Identified spatially distinct transcriptional domains and cluster-specific marker genes using Leiden clustering and differential expression analysis.
 
-### 4) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
+---  
+
+### 5) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
 **Repo:** https://github.com/Kusuru-Meghana/Alz-Detect---Machine-Learning-on-Blood-Transcriptomics  
 - Built an end-to-end pipeline on GEO blood expression data (probe → gene mapping → ML).
 - Baseline vs boosted models + SHAP interpretability; distilled into a compact gene-signature style model.
 
 ---
 
-### 5) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
+### 6) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
 **Repo:** https://github.com/Kusuru-Meghana/functional-enrichment  
 - Practical enrichment workflows for gene lists, including preprocessing, visualization, and interpretation.
 - Focused on extracting biological meaning from differential gene signals.
 
 ---
 
-### 6) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
+### 7) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
 **Repo:** https://github.com/Kusuru-Meghana/childhood-obesity-prediction  
 - Predicts obesity risk (binary) from lifestyle + demographic + family factors.
 - Includes EDA, feature engineering, and model comparison.
