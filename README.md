@@ -47,10 +47,9 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 ---
 ### 4) Spatial Transcriptomics Analysis of Human Cerebellum (10x Visium)
 **Repo:** https://github.com/Kusuru-Meghana/human-cerebellum-spatial-transcriptomics
-- Performed end-to-end spatial transcriptomics analysis of human cerebellum tissue using 10x Genomics Visium data, integrating QC, normalization, PCA, and clustering workflows.  
-- Demonstrated that gene expression–based clustering alone recovers spatially coherent tissue domains, validating biological structure without spatial priors.  
-- Identified spatially distinct transcriptional domains and cluster-specific marker genes using Leiden clustering and differential expression analysis.
-
+- Analyzed 10x Visium human cerebellum data to identify spatially coherent transcriptional domains using expression-based and spatially informed clustering.
+- Validated biological structure by mapping clusters and QC metrics back to tissue space and identifying cluster-specific marker genes.
+- 
 ---  
 
 ### 5) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
