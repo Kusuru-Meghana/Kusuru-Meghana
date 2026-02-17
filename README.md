@@ -38,35 +38,44 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 - Conducted functional annotation with Ensembl VEP, prioritizing ~4,700 protein-altering and splice-site variants across ~7,800 genes to support biological interpretation of tumorigenic mutations.[web:33][web:38]
 
 ---
+### 3) Spatial Transcriptomics — Human DLPFC (10x Visium)
+- Designed end-to-end spatial transcriptomics workflow with QC, HVG selection, PCA, and Leiden clustering.
 
-### 3) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
+- Implemented batch-aware integration across six sections to assess biological reproducibility.
+
+- Evaluated spatial autocorrelation using Moran’s I to quantify transcriptional structure.
+
+- Structured analysis into modular scripts for reproducibility and scalability.
+
+---
+### 4) Non-Invasive Renal Fibrosis Prediction (KPMP) — ML + SHAP + Pathway Validation
 **Repo:** https://github.com/Kusuru-Meghana/Non-Invasive-Fibrosis-ML-Pipeline  
 - Built an explainable ML pipeline to predict fibrosis severity using **clinical + plasma biomarkers**, benchmarked against pathology ground truth.
 - Compared invasive vs non-invasive feature sets; used **SHAP** to identify top biomarkers; used enrichment (Reactome/KEGG) for biological validation.
 
 ---
-### 4) Spatial Transcriptomics Analysis of Human Cerebellum (10x Visium)
+### 5) Spatial Transcriptomics Analysis of Human Cerebellum (10x Visium)
 **Repo:** https://github.com/Kusuru-Meghana/human-cerebellum-spatial-transcriptomics
 - Analyzed 10x Visium human cerebellum data to identify spatially coherent transcriptional domains using expression-based and spatially informed clustering.
 - Validated biological structure by mapping clusters and QC metrics back to tissue space and identifying cluster-specific marker genes.
 - 
 ---  
 
-### 5) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
+### 6) Alzheimer’s Detection from Blood Transcriptomics — ML + SHAP → Compact Gene Signature
 **Repo:** https://github.com/Kusuru-Meghana/Alz-Detect---Machine-Learning-on-Blood-Transcriptomics  
 - Built an end-to-end pipeline on GEO blood expression data (probe → gene mapping → ML).
 - Baseline vs boosted models + SHAP interpretability; distilled into a compact gene-signature style model.
 
 ---
 
-### 6) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
+### 7) Functional Enrichment Analysis (GO / KEGG / Reactome / GSEA) — End-to-End Interpretation Workflow
 **Repo:** https://github.com/Kusuru-Meghana/functional-enrichment  
 - Practical enrichment workflows for gene lists, including preprocessing, visualization, and interpretation.
 - Focused on extracting biological meaning from differential gene signals.
 
 ---
 
-### 7) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
+### 8) Childhood Obesity Risk Prediction (NSCH 2020) — Public Health ML
 **Repo:** https://github.com/Kusuru-Meghana/childhood-obesity-prediction  
 - Predicts obesity risk (binary) from lifestyle + demographic + family factors.
 - Includes EDA, feature engineering, and model comparison.
