@@ -39,6 +39,7 @@ Goal: identify **high-confidence direct MYC targets** by requiring agreement acr
 
 ---
 ### 3) Spatial Transcriptomics — Human DLPFC (10x Visium)
+**Repo:** https://github.com/Kusuru-Meghana/human-cerebellum-spatial-transcriptomics
 - Designed end-to-end spatial transcriptomics workflow with QC, HVG selection, PCA, and Leiden clustering.
 
 - Implemented batch-aware integration across six sections to assess biological reproducibility.
